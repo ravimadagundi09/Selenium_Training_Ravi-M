@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="day3.LoginTest"/>
+      <class name="day3.DateTask1"/>
+      <class name="day3.DateTask2"/>
+      <class name="day3.MyFisrtTestNGTest"/>
+      <class name="day3.MyFirstSeleniumScript2"/>
+      <class name="day3.MyFirstSeleniumScript"/>
+      <class name="day3.HandleDynamicElement2"/>
+      <class name="day3.Task6"/>
+      <class name="day3.AssertionDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
